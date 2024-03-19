@@ -6,7 +6,7 @@ function SectionOne() {
     <Container
       imageUrl="../images/Bphoto.png"
       title=" Welcome to Maeum"
-      subtitle=" elegnace within  the heart of Paris"
+      subtitle=" Discover Your Signature Style."
       buttonText={"Explore"} 
       buttonOnClick={() => {}}/>
   );

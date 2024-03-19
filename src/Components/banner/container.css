@@ -1,0 +1,23 @@
+/* container.css */
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.animate-slide-in {
+  animation: slideInFromLeft 0.75s ease-out forwards;
+}
+.animate-slide-in-left1 {
+  animation: slideInFromLeft 1.2s ease-out forwards;
+}
+.animate-slide-in-left2 {
+  animation: slideInFromLeft 1.6s ease-out forwards;
+}
+.animate-slide-in-left3 {
+  animation: slideInFromLeft 2s ease-out forwards;
+}
