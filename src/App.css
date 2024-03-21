@@ -4,3 +4,10 @@
 .width{
     max-width: 90vw;
 }
+
+.services-submenu{
+    @apply absolute mt-2 w-48 bg-white shadow-md rounded-lg z-50;
+}
+.services-submenu-clicked{
+    display: none;
+}
